@@ -1,0 +1,41 @@
+:root{
+ padding: 16px;
+ font-family: "Poppins", sans-serif;
+}
+
+.playgrid {
+    display: flex;
+    width: 248px;
+    flex-wrap: wrap;
+    gap: 4px;
+    height: 248px;
+    padding-top: 24px;
+}
+
+.playgrid button{
+    height: 80px;
+    width: 80px;
+    background: #faf9f6;
+    border-radius: 8px;
+    border-color: burlywood;
+    border-style: groove;
+}
+
+.gamecontrols button{
+    background-color: #4681f4;
+    color: #faf9f6;
+    border-radius: 4px;
+    padding: 8px;
+    min-width: 108px;
+    font-family: "Poppins",sans-serif;
+}
+
+.players>div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.players>div>div{
+    color: #4681f4;
+}
